@@ -1,3 +1,17 @@
+# Manual added entries
+.pmd
+.project
+.classpath
+.settings
+target
+bin
+*.bak
+classes
+.DS_Store
+nb-configuration.xml
+context.xml
+
+# Below Generated from GitHub
 *.class
 
 # Mobile Tools for Java (J2ME)
