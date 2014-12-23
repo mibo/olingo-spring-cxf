@@ -9,11 +9,16 @@ To use this it is necassary to...
 
 Afterwards this project can be build and run without problems.
 
-## Build
+## Quick-Sample-Start
+Just call `mvn` and after startup is finished open [http://localhost:8080/](http://localhost:8080/) in the browser
+
+## Sample Start
+
+### Build
 Simple build with `mvn clean install`
 
-## Run
+### Run
 After build deploy created WAR (e.g. `target/spring-cxf-ref-0.1.0.war`) in application server (e.g. *Tomcat*)
 
-## Test
+### Test
 Simpe call [http://localhost:8080/](http://localhost:8080/) to see the welcome site with additional links
