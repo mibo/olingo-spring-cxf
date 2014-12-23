@@ -19,10 +19,13 @@
 
 	<!-- Make @Autowire work -->
 	<context:annotation-config />
+	<!--  Import CXF -->
+	<import resource="classpath:META-INF/cxf/cxf.xml"/>
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
 
 	<!-- Register the scenario service factory -->
 	<bean id="serviceFactory" class="org.apache.olingo.odata2.ref.processor.ScenarioServiceFactory" />
 
 	<!-- Provide the OData service server -->
-	<odata:server id="RefScenarioServer" address="/ReferenceScenario.svc" factory="serviceFactory" pathSplit="0"/>
+	<odata:server id="RefScenarioServer" address="/ReferenceScenario.svc" factory="serviceFactory" pathsplit="0"/>
 </beans>
