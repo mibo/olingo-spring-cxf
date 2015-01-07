@@ -33,7 +33,7 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.olingo</groupId>
-      <artifactId>odata2-spring</artifactId>
+      <artifactId>olingo-odata2-spring</artifactId>
       <version>${version.olingo}</version>
     </dependency>
     <!-- Olingo specific dependencies -->
