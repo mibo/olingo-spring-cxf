@@ -3,7 +3,7 @@ Apache Olingo Spring and CXF Reference Scenarion Sample
 
 ## Pre-Requisites
 To use this it is necassary to...
-  * ...check out [this commit](https://git-wip-us.apache.org/repos/asf?p=olingo-odata2.git;a=commit;h=7a596e207e0292419447f11b1df792f1824ca432)
+  * ...check out [this commit](https://git-wip-us.apache.org/repos/asf?p=olingo-odata2.git;a=commit;h=92531140bb369a98a12c6a85f3f8aac08fb803bc)
   * ...build checked out project (`mvn clean install`)
   * ...as well as the separate `odata2-spring` extension (via `mvn clean install`)
 
